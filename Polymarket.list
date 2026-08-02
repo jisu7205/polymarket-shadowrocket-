@@ -1,12 +1,15 @@
 # NAME: Polymarket
-# AUTHOR: custom (基于 blackmatrix7/ios_rule_script Proxy.list 格式)
+# AUTHOR: custom (基于 blackmatrix7/ios_rule_script Google.list 格式)
+# REPO: https://github.com/blackmatrix7/ios_rule_script
 # DESC: 将 Polymarket 网站及 iOS App 流量分流至代理(Proxy)
 # SITE: https://polymarket.com
 # APP BUNDLE ID: com.polymarket.ios-app
-# NOTE: 导入后在 Shadowrocket 中选择策略为你的代理节点/策略组(名称通常为 Proxy)
 # UPDATED: 2026-08-02
-# DOMAIN-SUFFIX: 1
+# DOMAIN: 0
 # DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 1
+# IP-CIDR: 0
+# USER-AGENT: 0
 # TOTAL: 2
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-KEYWORD,polymarket
