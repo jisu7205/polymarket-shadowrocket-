@@ -1,2 +1,3 @@
-# polymarket-shadowrocket-
+# polymarket-shadowrocket-ruleset
 polymarket shadowrocket 分流规则
+基于blackmatrix7由AI生成的分流规则。仅适用于shadowrocket中对polymarket网站及其app的分流
